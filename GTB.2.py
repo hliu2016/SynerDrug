@@ -200,7 +200,7 @@ if __name__ == '__main__':
     fold = 10     #n-fold cross validation
     trainfile=r'C:/Users/Administrator/Desktop/GTB/0.7T.libsvm' #your training data,for example trainfile = r'c:\experiment\train.txt'
     testfile=r''  #your testing data
-    params = { 'n_estimators': 300, 'max_depth': 13, 'subsample': 0.7,
+    params = { 'n_estimators': 600, 'max_depth': 13, 'subsample': 0.7,
         'learning_rate': 0.3, 'min_samples_leaf': 2, 'random_state': 7}
     clf = GradientBoostingClassifier(**params)
     cross(trainfile,fold,outpath,clf) #this method is used to implement n-fold cross validation
