@@ -1,1 +1,2 @@
 t_r0.2_rep1.csv、t_r0.2_rep2.csv、t_r0.2_rep3.csv are 3 replicates of rwr results based on same parameters.
+t_m_0.9.csv is the best tuned results of rwr, which can be used as training set for classifiers.
