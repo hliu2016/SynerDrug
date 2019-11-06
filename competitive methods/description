@@ -1,1 +1,2 @@
-the 7 competitive methods
+the Rscripts for 7 competitive methods, including Adaboost, Logitboost, Logistic regression, Naive Bayes, Random Forest, KNN and SVM. 
+The tuning results are also provided, refer to /tuning folder.
