@@ -1,0 +1,3 @@
+
+These files are used for replicate the random walk with restart, the parameters lambda and eta are tuned to achieve the best performance.
+Lambda=0.7 and eta= 0.9
