@@ -13,6 +13,7 @@ druglist=[]
 for i in range(1, len(items)):
     druglist.append(int(items[i]))
 len(druglist)
+##load drug nodes
 
 with open(r'E:\zwh\education\graduated\1导师布置\小论文5（GTB）\code\SynerDrug-master\data\DCDBppguiihua.csv','r') as f:
     items=f.readline().strip().split(',')
@@ -21,13 +22,14 @@ proteinlist=[]
 for i in range(1, len(items)):
     proteinlist.append(items[i])
 len(proteinlist)
+#load protein nodes
 
 cp=[]
 with open(r'E:\zwh\education\graduated\1导师布置\小论文5（GTB）\code\code2\STITCHcpmatrixnormalized.csv','r') as f:
     items=f.readline()
     for line in f:
         cp.append(line.strip().split(',')[1:])
-   
+##load cp links   
     
 #import numpy as np
 #m0=np.zeros((2718,len(druglist)+len(proteinlist)))
