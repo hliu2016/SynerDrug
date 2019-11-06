@@ -7,7 +7,7 @@ Created on Mon Nov  4 23:43:01 2019
 
 #############construct initial probability vector for each combination
 import csv
-with open(r'E:\zwh\education\graduated\1导师布置\小论文5（GTB）\code\SynerDrug-master\data\DCDBccguiihua.csv','r') as f:
+with open(r'E:\zwh\education\graduated\1导师布置\小论文5（GTB）\code\SynerDrug-master\data\drugs.csv','r') as f:
     items=f.readline().strip().split(',')
 druglist=[]
 for i in range(1, len(items)):
@@ -15,7 +15,7 @@ for i in range(1, len(items)):
 len(druglist)
 ##load drug nodes
 
-with open(r'E:\zwh\education\graduated\1导师布置\小论文5（GTB）\code\SynerDrug-master\data\DCDBppguiihua.csv','r') as f:
+with open(r'E:\zwh\education\graduated\1导师布置\小论文5（GTB）\code\SynerDrug-master\data\proteins.csv','r') as f:
     items=f.readline().strip().split(',')
 items[0]
 proteinlist=[]
