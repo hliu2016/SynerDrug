@@ -2,7 +2,7 @@
 # initial probability distribution.py -> constructing initial probability vectors for benchmark dataset(parameter eta)
 # initial transfer matrix.R -> constructing initial transfer matrix(parameter lambda)
 # rwr parallel multiply.R -> random walk with restart(parameter alpha) 
-  tuned M amd m are also provided to simplify the process.(transfer M and probability M folder)
+  tuned M (\tuned trandefr M and probability m\M_0.7.csv) amd m (\tuned trandefr M and probability m\m.0_0.9.csv) are also provided to       simplify the process.
 # GTB.py -> gradient boosting tree 
 # drugs.csv -> all drugs involved
 # proteins.csv -> all proteins involved 
